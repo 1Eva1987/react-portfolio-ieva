@@ -1,13 +1,18 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 function Nav() {
   return (
     <div>
-      <h1>IEVA</h1>
-      <a href="#">Home</a>
-      <a href="#">Projects</a>
-      <a href="#">Skills</a>
-      <a href="#">Contact Me</a>
+      <div>
+        <h1>IEVA</h1>
+      </div>
+      <div>
+        <NavLink to="/">Home</NavLink>
+        <NavLink to="/projects">Projects</NavLink>
+        <NavLink to="/skills">Projects</NavLink>
+        <NavLink to="/contact">Projects</NavLink>
+      </div>
     </div>
   );
 }

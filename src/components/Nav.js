@@ -10,8 +10,8 @@ function Nav() {
       <div>
         <NavLink to="/">Home</NavLink>
         <NavLink to="/projects">Projects</NavLink>
-        <NavLink to="/skills">Projects</NavLink>
-        <NavLink to="/contact">Projects</NavLink>
+        <NavLink to="/skills">Skills</NavLink>
+        <NavLink to="/contact">Contact Me</NavLink>
       </div>
     </div>
   );

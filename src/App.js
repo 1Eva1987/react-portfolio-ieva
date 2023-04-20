@@ -6,7 +6,7 @@ import Home from "./components/Home";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import ProjectCard from "./components/ProjectCard";
+import ProjectsList from "./components/ProjectsList";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <Nav />
         <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/projects" element={<ProjectCard />}></Route>
+          <Route path="/projects" element={<ProjectsList />}></Route>
           <Route path="/skills" element={<Skills />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
         </Routes>

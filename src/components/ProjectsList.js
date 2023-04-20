@@ -7,7 +7,7 @@ import weather from "../images/weather.png";
 import { FaGithub } from "react-icons/fa";
 import { BsFillEyeFill } from "react-icons/bs";
 
-function ProjectCard() {
+function ProjectsList() {
   const projectList = projects;
 
   //   function to display corect image
@@ -52,4 +52,4 @@ function ProjectCard() {
     </div>
   );
 }
-export default ProjectCard;
+export default ProjectsList;

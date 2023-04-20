@@ -4,6 +4,8 @@ import roamer from "../images/roamer.png";
 import workout from "../images/workout.png";
 import quiz from "../images/quiz.png";
 import weather from "../images/weather.png";
+import { FaGithub } from "react-icons/fa";
+import { BsFillEyeFill } from "react-icons/bs";
 
 function ProjectCard() {
   const projectList = projects;
@@ -38,10 +40,10 @@ function ProjectCard() {
               />
               <p>{project.description}</p>
               <a href={project.live} target="_blank" rel="noreferrer">
-                Live
+                <BsFillEyeFill />
               </a>
               <a href={project.repo} target="_blank" rel="noreferrer">
-                GitHub
+                <FaGithub />
               </a>
             </div>
           );

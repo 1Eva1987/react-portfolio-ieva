@@ -4,7 +4,7 @@ import Typewriter from "typewriter-effect";
 
 function Intro() {
   return (
-    <div className="home">
+    <div className="intro">
       <div className="hello">
         <div className="type">
           <Typewriter
@@ -29,15 +29,15 @@ function Intro() {
         <h2>
           My name is <span>Ieva</span>
         </h2>
-        <p>I'm a Junior Developer</p>
-        <p>based in</p>
-        <p>North Lincolnshire</p>
+        <h3>I'm a Junior Developer</h3>
+        {/* <h3>based in</h3>
+        <h3>North Lincolnshire</h3> */}
         <p className="question">Want to know MORE?</p>
         <p className="more">
           Feell free to use the <span>LINKS </span>above
         </p>
         <p>or</p>
-        <p className="scroll">KEEP SCROLLING</p>
+        <p className="scroll">KEEP SCROLLING...</p>
       </div>
     </div>
   );

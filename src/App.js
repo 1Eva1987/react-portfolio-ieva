@@ -6,6 +6,7 @@ import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ProjectsList from "./components/ProjectsList";
+import About from "./components/About";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Nav />
         <Routes>
           <Route path="/" element={<Home />}></Route>
+          <Route path="/about" element={<About />}></Route>
           <Route path="/projects" element={<ProjectsList />}></Route>
           <Route path="/skills" element={<Skills />}></Route>
           <Route path="/contact" element={<Contact />}></Route>

@@ -26,7 +26,6 @@ function Intro() {
             }}
           />
         </div>
-
         <h2>
           My name is <span>Ieva</span>
         </h2>

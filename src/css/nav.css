@@ -4,6 +4,7 @@
 .toggle {
   width: 50px;
   height: 30px;
+  cursor: pointer;
 }
 .navBar {
   display: flex;
@@ -19,14 +20,17 @@
   margin-right: 20px;
   text-decoration: none;
   color: black;
-  font-weight: bold;
-  font-size: 20px;
+  font-weight: 600;
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   /* text-decoration: underline; */
 }
 .navLinks a:hover {
-  font-size: 22px;
+  /* font-size: 22px; */
+  text-shadow: 0.5px 1px rgb(109, 1, 109);
 }
 .logo h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 45px;
   margin: 0 0 0 10px;
   background: linear-gradient(
@@ -37,18 +41,18 @@
   );
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  background-clip: text;
 }
 @media screen and (max-width: 600px) {
   .navLinks {
     display: none;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    margin-top: 1rem;
   }
 
   .navLinks a {
-    margin: 0.5rem 0;
+    font-size: 20px;
+    margin: 2px;
   }
 
   .navLinks.active {

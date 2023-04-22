@@ -14,7 +14,9 @@ function Nav() {
         <NavLink to="/about">About Me</NavLink>
         <NavLink to="/projects">Projects</NavLink>
         <NavLink to="/skills">Skills</NavLink>
-        <NavLink to="/contact">Contact Me</NavLink>
+        <NavLink to="/contact" className="contLink">
+          Contact Me
+        </NavLink>
       </div>
       <div
         className="toggle"

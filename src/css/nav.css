@@ -25,10 +25,23 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   /* text-decoration: underline; */
 }
+.navLinks .contLink {
+  background: linear-gradient(
+    to right,
+    black,
+    rgb(109, 1, 109),
+    rgb(229, 30, 76)
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
 .navLinks a:hover {
   /* font-size: 22px; */
-  text-shadow: 0.5px 1px rgb(109, 1, 109);
+  text-shadow: 0.5px 1px;
 }
+
 .logo h1 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 45px;
@@ -43,7 +56,8 @@
   -webkit-background-clip: text;
   background-clip: text;
 }
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 678px) {
   .navLinks {
     display: none;
     flex-direction: column;
@@ -59,7 +73,7 @@
     display: flex;
   }
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 679px) {
   .toggle {
     display: none;
   }

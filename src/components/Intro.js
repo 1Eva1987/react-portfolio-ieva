@@ -33,11 +33,15 @@ function Intro() {
         {/* <h3>based in</h3>
         <h3>North Lincolnshire</h3> */}
         <p className="question">Want to know MORE?</p>
-        <p className="more">
+        {/* <p className="more">
           Feell free to use the <span>LINKS </span>above
-        </p>
-        <p>or</p>
+        </p> */}
+
         <p className="scroll">KEEP SCROLLING...</p>
+        <p>or</p>
+        <a className="cv" href="./Images/Ieva.B-CV.pdf" download>
+          Download CV
+        </a>
       </div>
     </div>
   );

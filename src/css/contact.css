@@ -4,6 +4,7 @@
   border-radius: 5px;
   box-shadow: 0 3px 10px grey;
   margin: 20px;
+  margin-bottom: 50px;
 }
 
 /* .download {
@@ -69,7 +70,7 @@ textarea {
     to right,
     rgb(109, 1, 109),
     rgb(229, 30, 76),
-    yellow
+    orange
   );
   box-shadow: 0 3px 10px grey;
   color: white;
@@ -87,21 +88,7 @@ textarea {
   font-size: 25px;
   color: rgb(109, 1, 109);
 }
-.cv {
-  margin-bottom: 10px;
-  text-decoration: none;
-  padding: 5px;
-  color: white;
-  background: linear-gradient(
-    to right,
-    rgb(109, 1, 109),
-    rgb(229, 30, 76),
-    yellow
-  );
-  border-radius: 5px;
-  font-size: 20px;
-  box-shadow: 0 3px 10px grey;
-}
+
 .c-icon:hover {
   font-size: 30px;
 }

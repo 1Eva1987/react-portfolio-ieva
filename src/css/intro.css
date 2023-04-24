@@ -65,7 +65,6 @@ h2 span {
   font-size: 1.5rem;
   font-weight: bold;
 }
-/* .question, */
 .more span,
 .scroll {
   background: linear-gradient(
@@ -78,7 +77,21 @@ h2 span {
   -webkit-background-clip: text;
   background-clip: text;
 }
-
+.cv {
+  margin-top: 10px;
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+  background: linear-gradient(
+    to right,
+    rgb(109, 1, 109),
+    rgb(229, 30, 76),
+    yellow
+  );
+  border-radius: 5px;
+  font-size: 25px;
+  box-shadow: 0 3px 10px grey;
+}
 @media screen and (min-width: 780px) {
   .hello {
     background-image: url("https://img.freepik.com/premium-vector/line-art-girl-with-ponytail-glasses-woman-silhouette-drawn-one-continuous-line-colors_490843-200.jpg?w=360");
@@ -86,7 +99,4 @@ h2 span {
     background-position: left;
     margin-left: 100px;
   }
-  /* .hello {
-    margin-left: 150px;
-  } */
 }

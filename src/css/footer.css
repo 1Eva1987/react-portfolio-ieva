@@ -1,0 +1,14 @@
+.footer {
+  height: 5vh;
+  background: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.footer p span {
+  color: red;
+}

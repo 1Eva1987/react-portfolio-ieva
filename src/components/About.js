@@ -1,9 +1,8 @@
 import React from "react";
-import "../css/about.css";
 
 function About() {
   return (
-    <div className="wrapAbout">
+    <div className="wrap">
       <h1>ABOUT ME</h1>
       <div className="about">
         <p>
@@ -14,12 +13,18 @@ function About() {
           while observing a friend working on a coding project, I realized that
           coding was the challenge I had been looking for.
         </p>
+        <br></br>
         <p>
           From that moment on, I took a self-taught route. I was determined to
           succeed, and eventually enrolled in a sixteen-week intensive bootcamp
           in front-end development. During this program, I honed my skills in
-          HTML, CSS, Bootstrap, JavaScript, jQuery, Node.js, and React.
+          <strong>
+            {" "}
+            HTML, CSS, Bootstrap, JavaScript, jQuery, Node.js, and React
+          </strong>
+          .
         </p>
+        <br></br>
         <p>
           I am thrilled to have the opportunity to showcase my work and share my
           passion with you through my portfolio. It is my hope that my projects

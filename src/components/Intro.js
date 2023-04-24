@@ -30,8 +30,6 @@ function Intro() {
           My name is <span>Ieva</span>
         </h2>
         <h3>I'm a Junior Developer</h3>
-        {/* <h3>based in</h3>
-        <h3>North Lincolnshire</h3> */}
         <p className="question">Want to know MORE?</p>
         {/* <p className="more">
           Feell free to use the <span>LINKS </span>above

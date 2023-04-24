@@ -14,25 +14,12 @@
   align-items: center;
   justify-content: center;
   height: 95vh;
-  /* margin: 20px; */
-
-  /* margin-bottom: 20rem; */
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
   justify-content: center;
 }
-
-/* .hello {
-  margin-bottom: 10rem;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-} */
-
 .question {
   margin-top: 50px;
 }
@@ -55,7 +42,6 @@
 }
 .hello h2 {
   font-size: 2rem;
-  /* margin-bottom: 20px; */
 }
 h2 span {
   font-size: 3rem;
@@ -65,7 +51,7 @@ h2 span {
   font-size: 1.5rem;
   font-weight: bold;
 }
-.more span,
+
 .scroll {
   background: linear-gradient(
     to right,

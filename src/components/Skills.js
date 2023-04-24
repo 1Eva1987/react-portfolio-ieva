@@ -14,7 +14,7 @@ import "../css/skills.css";
 
 function Skills() {
   return (
-    <div className="skills">
+    <div className="wrap">
       <h1>SKILLS</h1>
       <div>
         <div className="skills-container">

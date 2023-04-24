@@ -24,7 +24,7 @@ function ProjectsList() {
     }
   };
   return (
-    <div className="wrapProjects">
+    <div className="wrap">
       <div>
         <h1>PROJECTS</h1>
       </div>

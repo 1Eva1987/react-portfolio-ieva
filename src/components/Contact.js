@@ -15,7 +15,7 @@ function Contact() {
         "service_cfh7eub",
         "template_t9jcazh",
         form.current,
-        "YSOXrxNZKaJKKFM8q"
+        "yTtu_ohkXH-MX3nOi"
       )
       .then(
         (result) => {
@@ -29,16 +29,8 @@ function Contact() {
       );
   };
   return (
-    <div className="contacts">
-      {/* <div className="download"> */}
-      {/* <a className="cv" href="./Images/Ieva.B-CV.pdf" download>
-          Download CV
-        </a>
-        <h2>And</h2> */}
-
+    <div className="wrap contact-wrap">
       <h1>CONTACT ME</h1>
-      {/* </div> */}
-
       <div className="contact-me">
         <div className="contact-links">
           <a className="c-icon" href="tel:+447397803602">

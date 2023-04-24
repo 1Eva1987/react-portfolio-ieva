@@ -1,10 +1,11 @@
 import React from "react";
+import "../css/about.css";
 
 function About() {
   return (
-    <div>
+    <div className="wrapAbout">
       <h1>ABOUT ME</h1>
-      <div>
+      <div className="about">
         <p>
           Prior to my career in coding and development, I worked in various
           customer service roles and the care sector. Although I enjoyed these

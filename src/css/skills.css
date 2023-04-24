@@ -1,0 +1,22 @@
+.skills {
+  background-color: rgb(246, 244, 246);
+  margin: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px grey;
+}
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.skills-container div {
+  margin: 2%;
+  padding: 15px 15px 0 15px;
+  background-color: white;
+  box-shadow: 0 3px 10px grey;
+  border-radius: 5px;
+  font-size: 5rem;
+}

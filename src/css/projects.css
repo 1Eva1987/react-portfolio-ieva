@@ -1,0 +1,74 @@
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+.projects {
+  background-color: rgb(246, 244, 246);
+  text-align: center;
+  width: 40%;
+  min-width: 300px;
+  min-height: 400px;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+h1 {
+  width: fit-content;
+  margin: auto;
+  background: linear-gradient(
+    to right,
+    rgb(109, 1, 109),
+    rgb(229, 30, 76),
+    orange
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  text-align: center;
+  margin-top: 20px;
+}
+.projects p {
+  margin: 0 20px;
+  line-height: 1.5rem;
+  text-align: justify;
+}
+.card-img {
+  width: 80%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin: 10px;
+}
+.links {
+  margin: 10px;
+}
+.links a {
+  justify-content: center;
+  margin: 10px;
+  text-decoration: none;
+  background: linear-gradient(
+    to right,
+    rgb(109, 1, 109),
+    rgb(229, 30, 76),
+    orange
+  );
+  box-shadow: 0 3px 10px grey;
+
+  color: white;
+
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.icon {
+  padding-right: 5px;
+}
+.links a:hover {
+  box-shadow: 0 5px 10px grey;
+}

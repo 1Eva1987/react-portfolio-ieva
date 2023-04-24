@@ -6,6 +6,7 @@ import quiz from "../images/quiz.png";
 import weather from "../images/weather.png";
 import { FaGithub } from "react-icons/fa";
 import { BsFillEyeFill } from "react-icons/bs";
+import "../css/projects.css";
 
 function ProjectsList() {
   const projectList = projects;
@@ -27,24 +28,27 @@ function ProjectsList() {
       <div>
         <h1>PROJECTS</h1>
       </div>
-      <div>
+      <div className="wrapper">
         {/* maping over projects from json file and displaying  each project*/}
         {projectList.map((project) => {
           return (
-            <div key={project.id}>
+            <div className="projects" key={project.id}>
               <h2>{project.name}</h2>
               <img
+                className="card-img"
                 src={displayImage(project.name)}
                 alt={project.name}
                 height="200px"
               />
               <p>{project.description}</p>
-              <a href={project.live} target="_blank" rel="noreferrer">
-                <BsFillEyeFill />
-              </a>
-              <a href={project.repo} target="_blank" rel="noreferrer">
-                <FaGithub />
-              </a>
+              <div className="links">
+                <a href={project.live} target="_blank" rel="noreferrer">
+                  <BsFillEyeFill className="icon" />
+                </a>
+                <a href={project.repo} target="_blank" rel="noreferrer">
+                  <FaGithub className="icon" />
+                </a>
+              </div>
             </div>
           );
         })}

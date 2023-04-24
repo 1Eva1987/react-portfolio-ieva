@@ -1,0 +1,107 @@
+.contacts {
+  padding: 10px;
+  background-color: rgb(246, 244, 246);
+  border-radius: 5px;
+  box-shadow: 0 3px 10px grey;
+  margin: 20px;
+}
+
+/* .download {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} */
+/* .h1 {
+  font-size: 30px;
+  background: linear-gradient(
+    to right,
+    rgb(109, 1, 109),
+    rgb(229, 30, 76),
+    yellow
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+} */
+.contact-me {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+}
+form {
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  max-width: 500px;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px 20px 0 20px;
+}
+form p {
+  font-weight: bold;
+  font-size: 25px;
+}
+.contact-links {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+input {
+  height: 10%;
+  min-width: 60%;
+  border: none;
+  box-shadow: 0 3px 10px grey;
+  border-radius: 5px;
+}
+textarea {
+  min-height: 30%;
+  min-width: 60%;
+  border: none;
+  box-shadow: 0 3px 10px grey;
+  border-radius: 5px;
+}
+.submit {
+  background: linear-gradient(
+    to right,
+    rgb(109, 1, 109),
+    rgb(229, 30, 76),
+    yellow
+  );
+  box-shadow: 0 3px 10px grey;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.cv:hover,
+.submit:hover {
+  box-shadow: 0 5px 10px grey;
+}
+.c-icon {
+  padding: 5px;
+  font-size: 25px;
+  color: rgb(109, 1, 109);
+}
+.cv {
+  margin-bottom: 10px;
+  text-decoration: none;
+  padding: 5px;
+  color: white;
+  background: linear-gradient(
+    to right,
+    rgb(109, 1, 109),
+    rgb(229, 30, 76),
+    yellow
+  );
+  border-radius: 5px;
+  font-size: 20px;
+  box-shadow: 0 3px 10px grey;
+}
+.c-icon:hover {
+  font-size: 30px;
+}

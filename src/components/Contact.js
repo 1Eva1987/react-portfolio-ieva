@@ -2,6 +2,7 @@ import React from "react";
 import { FaPhone, FaGithub, FaLinkedin } from "react-icons/fa";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import "../css/contact.css";
 
 function Contact() {
   const form = useRef();
@@ -29,13 +30,15 @@ function Contact() {
   };
   return (
     <div className="contacts">
-      <div className="download">
-        <a className="cv" href="./Images/Ieva.B-CV.pdf" download>
+      {/* <div className="download"> */}
+      {/* <a className="cv" href="./Images/Ieva.B-CV.pdf" download>
           Download CV
         </a>
-        <h2>And</h2>
-        <h2 className="h1">Contact Me</h2>
-      </div>
+        <h2>And</h2> */}
+
+      <h1>CONTACT ME</h1>
+      {/* </div> */}
+
       <div className="contact-me">
         <div className="contact-links">
           <a className="c-icon" href="tel:+447397803602">

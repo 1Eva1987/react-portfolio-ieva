@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/intro.css";
 import Typewriter from "typewriter-effect";
-import cv from "../images/Ieva.B-CV.pdf";
+import cv from "../images/ieva.pdf";
 
 function Intro() {
   return (

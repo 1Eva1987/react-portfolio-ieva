@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/intro.css";
 import Typewriter from "typewriter-effect";
+import cv from "../images/Ieva.B-CV.pdf";
 
 function Intro() {
   return (
@@ -31,13 +32,9 @@ function Intro() {
         </h2>
         <h3>I'm a Junior Developer</h3>
         <p className="question">Want to know MORE?</p>
-        {/* <p className="more">
-          Feell free to use the <span>LINKS </span>above
-        </p> */}
-
         <p className="scroll">KEEP SCROLLING...</p>
         <p>or</p>
-        <a className="cv" href="./Images/Ieva.B-CV.pdf" download>
+        <a className="cv" href={cv} download>
           Download CV
         </a>
       </div>

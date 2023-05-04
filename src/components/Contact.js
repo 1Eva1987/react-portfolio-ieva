@@ -3,10 +3,11 @@ import { FaPhone, FaGithub, FaLinkedin } from "react-icons/fa";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "../css/contact.css";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function Contact() {
   const form = useRef();
-
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -20,11 +21,13 @@ function Contact() {
       .then(
         (result) => {
           console.log(result.text);
-          console.log("message sent!");
+          toast.success("Message sent");
           form.current.reset();
         },
         (error) => {
           console.log(error.text);
+          toast.error("There was an error sending your message");
+          form.current.reset();
         }
       );
   };
@@ -36,12 +39,19 @@ function Contact() {
           <a className="c-icon" href="tel:+447397803602">
             <FaPhone />
           </a>
-          <a className="c-icon" href="https://github.com/1Eva1987">
+          <a
+            className="c-icon"
+            href="https://github.com/1Eva1987"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FaGithub />
           </a>
           <a
             className="c-icon"
             href="https://www.linkedin.com/in/ieva-baranauskaite-096773252"
+            target="_blank"
+            rel="noreferrer"
           >
             <FaLinkedin />
           </a>
@@ -55,6 +65,7 @@ function Contact() {
           <input className="submit" type="submit" value="Send" />
         </form>
       </div>
+      <ToastContainer />
     </div>
   );
 }

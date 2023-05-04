@@ -1,4 +1,10 @@
 import React from "react";
+import driving from "../images/driving.jpeg";
+import walking from "../images/walking.jpeg";
+import traveling from "../images/traveling.png";
+import coding from "../images/coding.jpeg";
+
+import "../css/about.css";
 
 function About() {
   return (
@@ -32,6 +38,47 @@ function About() {
           can bring to any team or project. Thank you for considering my
           portfolio, and I look forward to the opportunity to work with you.
         </p>
+      </div>
+      <div className="more-about">
+        <h2 className="love">Thing I Love To Do:</h2>
+        <div className="grid">
+          <ul>
+            <li>CODING</li>
+            <li>DRIVING</li>
+            <li>WALKING</li>
+            <li>TRAVELING</li>
+          </ul>
+          <div className="img-about-div">
+            <img
+              className="img-about"
+              alt="driving"
+              src={driving}
+              height={"150px"}
+              width={"150px"}
+            ></img>
+            <img
+              className="img-about"
+              alt="walking"
+              src={walking}
+              height={"150px"}
+              width={"150px"}
+            ></img>
+            <img
+              className="img-about"
+              alt="traveling"
+              src={traveling}
+              height={"150px"}
+              width={"150px"}
+            ></img>
+            <img
+              className="img-about"
+              alt="walking"
+              src={coding}
+              height={"150px"}
+              width={"150px"}
+            ></img>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -1,0 +1,71 @@
+.more-about {
+  display: none;
+}
+@media screen and (min-width: 900px) {
+  .more-about {
+    display: inline;
+  }
+  .grid {
+    display: flex;
+    justify-content: space-between;
+  }
+  .img-about {
+    object-fit: cover;
+    margin-left: 10px;
+    padding-top: 20px;
+  }
+  ul li {
+    padding-top: 20px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-weight: bold;
+  }
+}
+ul {
+  display: block;
+  animation-name: li;
+  animation-duration: 2s;
+  position: relative;
+  animation-fill-mode: forwards;
+}
+@keyframes li {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+.love {
+  margin-top: 20px;
+  display: block;
+  animation-name: love;
+  animation-duration: 2s;
+  position: relative;
+  animation-fill-mode: forwards;
+  color: rgb(109, 1, 109);
+}
+@keyframes love {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+
+.img-about-div {
+  display: block;
+  animation-name: img;
+  animation-duration: 2s;
+  position: relative;
+  animation-fill-mode: forwards;
+}
+@keyframes img {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: 0%;
+  }
+}

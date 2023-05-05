@@ -13,3 +13,8 @@
   border-radius: 5px;
   font-size: 5rem;
 }
+@media screen and (max-width: 480px) {
+  .skills-container div {
+    font-size: 3rem;
+  }
+}

@@ -83,3 +83,25 @@ h2 span {
     margin-left: 100px;
   }
 }
+@media screen and (max-width: 480px) {
+  .type {
+    font-size: 3rem;
+  }
+  .hello h3 {
+    font-size: 2rem;
+    font-weight: bolder;
+  }
+  .hello h2 {
+    font-size: 2rem;
+  }
+  h2 span {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  .hello p {
+    font-size: 1.5rem;
+  }
+  .cv {
+    font-size: 18px;
+  }
+}

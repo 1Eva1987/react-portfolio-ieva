@@ -8,7 +8,7 @@ import "../css/about.css";
 
 function About() {
   return (
-    <div className="wrap">
+    <div className="wrap wrap-about">
       <h1>ABOUT ME</h1>
       <div className="about">
         <p>

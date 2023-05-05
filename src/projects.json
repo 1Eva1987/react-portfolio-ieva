@@ -18,14 +18,14 @@
         "id": 3,
         "name": "Weather Dashboard App" ,
         "description": "This app was made to create 5-day weather dashboard. When the user searches for a city, they are presented with the current and future weather conditions and that city is added to the search history, if the user refreshes the page, up to 5 last searches can be seen and the user is represented with weather conditions for the last checked city. ",
-        "live" : "https://1eva1987.github.io/workout_kitchen/",
-        "repo" : "https://github.com/1Eva1987/workout_kitchen.git"
+        "live" : "https://1eva1987.github.io/5-day-weather-dashboard/",
+        "repo" : "https://github.com/1Eva1987/5-day-weather-dashboard"
     },
         {
         "id": 4,
         "name": "Quiz Game" ,
         "description": "This app was created to build a timed coding quiz with multiple-choice questions and possibility to save the score. The aim is to answer the questions as quick as possible.Every incorrect answer reduces the time by 10s. When all the questions are answered or the time ends up the user will be able to save the score. ",
-        "live" : "https://1eva1987.github.io/workout_kitchen/",
-        "repo" : "https://github.com/1Eva1987/workout_kitchen.git"
+        "live" : "https://1eva1987.github.io/timed-quiz/",
+        "repo" : "https://github.com/1Eva1987/timed-quiz"
     }
 ]

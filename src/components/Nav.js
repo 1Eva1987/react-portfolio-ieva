@@ -7,7 +7,9 @@ function Nav() {
   return (
     <div className="navBar">
       <div className="logo">
-        <h1>IEVA</h1>
+        <NavLink to="/" className="lg-ieva">
+          IEVA
+        </NavLink>
       </div>
       <div className="navLinks">
         <NavLink to="/">Home</NavLink>

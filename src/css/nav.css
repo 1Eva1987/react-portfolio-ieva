@@ -8,6 +8,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: rgb(246, 244, 246);
+  box-shadow: 0 3px 10px grey;
 }
 .navLinks {
   display: flex;
@@ -33,10 +34,11 @@
 .navLinks a:hover {
   text-shadow: 0.5px 1px;
 }
-.logo h1 {
+.lg-ieva {
   font-size: 45px;
   margin: 0 0 0 10px;
   padding: 0;
+  font-weight: 600;
   background: var(--primary-background);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;

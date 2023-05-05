@@ -39,12 +39,14 @@
 }
 .hello h3 {
   font-size: 2.5rem;
+  font-weight: bolder;
 }
 .hello h2 {
   font-size: 2rem;
 }
 h2 span {
   font-size: 3rem;
+  font-weight: 900;
   color: rgb(109, 1, 109);
 }
 .hello p {

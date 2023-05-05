@@ -46,7 +46,7 @@ function About() {
             <li>CODING</li>
             <li>DRIVING</li>
             <li>WALKING</li>
-            <li>TRAVELING</li>
+            <li>TRAVELLING</li>
           </ul>
           <div className="img-about-div">
             <img className="img-about" alt="driving" src={driving}></img>

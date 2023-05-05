@@ -1,5 +1,4 @@
 .hello {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-image: linear-gradient(
       rgba(255, 255, 255, 0.8),
       rgba(255, 255, 255, 0.5)
@@ -8,11 +7,6 @@
   background-repeat: no-repeat;
   background-position: center;
   height: 85vh;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
   height: 95vh;
   display: flex;
   flex-direction: column;
@@ -27,12 +21,7 @@
   margin-bottom: 20px;
   font-size: 4rem;
   font-weight: 700;
-  background: linear-gradient(
-    to right,
-    rgb(109, 1, 109),
-    rgb(229, 30, 76),
-    orange /* yellow */
-  );
+  background: var(--primary-background);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
@@ -53,32 +42,39 @@ h2 span {
   font-size: 1.5rem;
   font-weight: bold;
 }
-
 .scroll {
-  background: linear-gradient(
-    to right,
-    rgb(109, 1, 109),
-    rgb(229, 30, 76),
-    orange
-  );
+  background: var(--primary-background);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
 }
 .cv {
   margin-top: 10px;
-  text-decoration: none;
   padding: 10px;
+  text-decoration: none;
   color: black;
-  background: linear-gradient(
-    to right,
-    rgb(109, 1, 109),
-    rgb(229, 30, 76),
-    orange
-  );
+  background: var(--primary-background);
   border-radius: 5px;
   font-size: 25px;
   box-shadow: 0 3px 10px grey;
+  animation-name: pulse;
+  animation: pulse 2s infinite;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+  }
+
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
 }
 @media screen and (min-width: 780px) {
   .hello {

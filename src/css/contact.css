@@ -39,12 +39,7 @@ textarea {
   border-radius: 5px;
 }
 .submit {
-  background: linear-gradient(
-    to right,
-    rgb(109, 1, 109),
-    rgb(229, 30, 76),
-    orange
-  );
+  background: var(--primary-background);
   box-shadow: 0 3px 10px grey;
   color: white;
   border-radius: 5px;
@@ -61,7 +56,6 @@ textarea {
   font-size: 25px;
   color: rgb(109, 1, 109);
 }
-
 .c-icon:hover {
   font-size: 30px;
 }

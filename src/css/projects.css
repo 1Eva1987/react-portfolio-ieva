@@ -9,7 +9,7 @@
   text-align: center;
   width: 40%;
   min-width: 300px;
-  min-height: 400px;
+  min-height: 600px;
   margin: 20px;
   padding: 10px;
   border-radius: 5px;
@@ -33,12 +33,7 @@
   justify-content: center;
   margin: 10px;
   text-decoration: none;
-  background: linear-gradient(
-    to right,
-    rgb(109, 1, 109),
-    rgb(229, 30, 76),
-    orange
-  );
+  background: var(--primary-background);
   box-shadow: 0 3px 10px grey;
   color: white;
   padding: 5px 20px;

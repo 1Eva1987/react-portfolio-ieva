@@ -49,34 +49,10 @@ function About() {
             <li>TRAVELING</li>
           </ul>
           <div className="img-about-div">
-            <img
-              className="img-about"
-              alt="driving"
-              src={driving}
-              height={"150px"}
-              width={"150px"}
-            ></img>
-            <img
-              className="img-about"
-              alt="walking"
-              src={walking}
-              height={"150px"}
-              width={"150px"}
-            ></img>
-            <img
-              className="img-about"
-              alt="traveling"
-              src={traveling}
-              height={"150px"}
-              width={"150px"}
-            ></img>
-            <img
-              className="img-about"
-              alt="walking"
-              src={coding}
-              height={"150px"}
-              width={"150px"}
-            ></img>
+            <img className="img-about" alt="driving" src={driving}></img>
+            <img className="img-about" alt="walking" src={walking}></img>
+            <img className="img-about" alt="traveling" src={traveling}></img>
+            <img className="img-about" alt="walking" src={coding}></img>
           </div>
         </div>
       </div>

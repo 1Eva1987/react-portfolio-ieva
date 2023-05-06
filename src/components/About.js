@@ -40,7 +40,7 @@ function About() {
         </p>
       </div>
       <div className="more-about">
-        <h2 className="love">Thing I Love To Do:</h2>
+        <h2 className="love">Things I Love To Do:</h2>
         <div className="grid">
           <ul>
             <li>CODING</li>

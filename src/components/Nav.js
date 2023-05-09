@@ -2,13 +2,14 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "../css/nav.css";
 import { GiHamburgerMenu } from "react-icons/gi";
+import Logo from "../images/Logo.png";
 
 function Nav() {
   return (
     <div className="navBar">
       <div className="logo">
         <NavLink to="/" className="lg-ieva">
-          IEVA
+          <img src={Logo} alt="logo" className="logo-img" />
         </NavLink>
       </div>
       <div className="navLinks">

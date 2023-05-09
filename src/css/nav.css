@@ -44,6 +44,10 @@
   -webkit-background-clip: text;
   background-clip: text;
 }
+.logo-img {
+  padding-top: 10px;
+  height: 40px;
+}
 @media screen and (max-width: 750px) {
   .navLinks {
     display: none;

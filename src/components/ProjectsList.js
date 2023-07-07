@@ -2,8 +2,7 @@ import React from "react";
 import projects from "../projects.json";
 import roamer from "../images/roamer.png";
 import workout from "../images/workout.png";
-import quiz from "../images/quiz.png";
-import weather from "../images/weather.png";
+import diary from "../images/diary.png";
 import { FaGithub } from "react-icons/fa";
 import { BsFillEyeFill } from "react-icons/bs";
 import "../css/projects.css";
@@ -17,10 +16,8 @@ function ProjectsList() {
       return roamer;
     } else if (projectName === "Workout Kitchen App") {
       return workout;
-    } else if (projectName === "Weather Dashboard App") {
-      return weather;
-    } else if (projectName === "Quiz Game") {
-      return quiz;
+    } else if (projectName === "Personal Diary") {
+      return diary;
     }
   };
   return (
@@ -41,6 +38,7 @@ function ProjectsList() {
                 height="200px"
               />
               <p>{project.description}</p>
+              <p className="tech">{project.tech}</p>
               <div className="links">
                 <a href={project.live} target="_blank" rel="noreferrer">
                   <BsFillEyeFill className="icon" />

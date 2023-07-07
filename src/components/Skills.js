@@ -8,7 +8,7 @@ import {
   FaNodeJs,
   FaGithub,
 } from "react-icons/fa";
-import { SiJquery } from "react-icons/si";
+import { SiJquery, SiExpress, SiMongodb } from "react-icons/si";
 import { TbBrandVscode } from "react-icons/tb";
 import "../css/skills.css";
 
@@ -44,6 +44,12 @@ function Skills() {
           </div>
           <div>
             <FaReact />
+          </div>
+          <div>
+            <SiExpress />
+          </div>
+          <div>
+            <SiMongodb />
           </div>
         </div>
       </div>

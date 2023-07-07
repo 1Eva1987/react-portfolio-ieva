@@ -4,11 +4,15 @@
   cursor: pointer;
 }
 .navBar {
+  margin-bottom: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: rgb(246, 244, 246);
   box-shadow: 0 3px 10px grey;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
 }
 .navLinks {
   display: flex;

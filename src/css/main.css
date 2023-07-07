@@ -4,7 +4,9 @@
     to right,
     rgb(109, 1, 109),
     rgb(229, 30, 76),
-    orange
+    orange /* black,
+    rgb(109, 1, 109),
+    rgb(229, 30, 76) */
   );
 }
 * {
@@ -23,6 +25,7 @@ p {
   line-height: 1.5rem;
   text-align: justify;
 }
+
 .wrap {
   background-color: rgb(246, 244, 246);
   margin: 20px;
@@ -31,7 +34,7 @@ p {
   box-shadow: 0 3px 10px grey;
 }
 .contact-wrap {
-  margin-bottom: 50px;
+  margin-bottom: 60px;
   min-height: 80vh;
 }
 @media screen and (min-width: 780px) {

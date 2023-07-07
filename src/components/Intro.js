@@ -30,7 +30,7 @@ function Intro() {
         <h2>
           My name is <span>Ieva</span>
         </h2>
-        <h3>I'm a Junior Developer</h3>
+        <h3>I'm a Junior Web Developer</h3>
         <p className="question">Want to know MORE?</p>
         <p className="scroll">KEEP SCROLLING...</p>
         <p>or</p>

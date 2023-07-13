@@ -15,6 +15,7 @@
 }
 .question {
   margin-top: 50px;
+  margin-bottom: 10px;
 }
 .type {
   margin-bottom: 20px;
@@ -34,21 +35,20 @@
 }
 h2 span {
   font-size: 3rem;
-  font-weight: 900;
-  color: rgb(109, 1, 109);
 }
 .hello p {
   font-size: 1.5rem;
   font-weight: bold;
 }
 .scroll {
+  margin-bottom: 10px;
   background: var(--primary-background);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
 }
 .cv {
-  margin-top: 10px;
+  margin-top: 20px;
   padding: 10px;
   text-decoration: none;
   color: white;

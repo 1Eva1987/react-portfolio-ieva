@@ -9,7 +9,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: rgb(246, 244, 246);
-  box-shadow: 0 3px 10px grey;
+  box-shadow: 0 3px 5px rgb(226, 222, 222);
   position: sticky;
   top: 0;
   z-index: 9999;
@@ -21,8 +21,7 @@
   margin-right: 20px;
   text-decoration: none;
   color: black;
-  font-weight: 600;
-  font-size: 25px;
+  font-size: 20px;
 }
 .navLinks .contLink {
   background: linear-gradient(

@@ -8,7 +8,7 @@
         "repo" : "https://github.com/1Eva1987/personal-diary"
     },
     {
-        "id": 1,
+        "id": 2,
         "name": "Roamer App" ,
         "description": "Roamer is a user-friendly travel guide app. The users can navigate to their desired destinations or explore the local area. It provides users with a map, accurate and up-to-date information on local weather, restaurants, buses and much more based on users' interests as well as the possibility to find the shortest route from one place to another. This app has a “Profile” page created using local storage. Once the user gets registered and logs in, he can save places and upload images.",
         "tech" : "Node.js, React,API's Axios, React-router-dom, React-tostify, Emailjs, Moment, JS, HTML/CSS, Bootstarp.",
@@ -16,7 +16,7 @@
         "repo" : "https://github.com/1Eva1987/roamer"
     },
     {
-        "id": 2,
+        "id": 3,
         "name": "Workout Kitchen App" ,
         "description": "There is so much information available online for health and fitness that it is difficult to know where to start, it can be very overwhelming and can discourage people from starting their fitness journey. This app will take the user's input and give a few workout and recipe ideas based on their choices. ",
         "tech": "JS, jQuery, AJAX, API's, HTML/CSS, Bootstarp,",

@@ -33,7 +33,7 @@ function Intro() {
         <h3>I'm a Junior Web Developer</h3>
         <p className="question">Want to know MORE?</p>
         <p className="scroll">KEEP SCROLLING...</p>
-        <p>or</p>
+        <p>OR</p>
         <a className="cv" href={cv} download>
           Download CV
         </a>

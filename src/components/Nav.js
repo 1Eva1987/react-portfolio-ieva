@@ -29,7 +29,7 @@ function Nav() {
         </NavLink>
       </div>
       <div className={`navLinks ${isNavActive ? "active" : ""}`}>
-        <NavLink to="/" onClick={handleNavLinkClick}>
+        <NavLink to="/" onClick={(handleNavLinkClick, handleLogoClick)}>
           Home
         </NavLink>
         <NavLink to="/about" onClick={handleNavLinkClick}>
